@@ -10,6 +10,7 @@ p {
 
 #top {
   background: #292b2f;
+  height: 6%;
   width: 100%;
   margin: 0px;
 }
@@ -17,11 +18,14 @@ p {
 #middle {
   background: BlanchedAlmond;
   width: 100%;
+  height: 68%;
   margin: 0px;
 }
 
 #bottom {
   background: #292b2f;
-  background: linear-gradient(180deg, Grey 1%, Black 100%);
+  background: linear-gradient(180deg, #292b2f 1%, Black 100%);
+  height: 68%;
   margin: 0px;
 }
+
