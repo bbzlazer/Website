@@ -7,20 +7,19 @@ p {
 }
 
 #top {
-  background: Grey;
+  background: #292b2f;
   width: 100%;
   margin: 0px;
 }
 
 #middle {
   background: BlanchedAlmond;
-  hight: 100%;
   width: 100%;
   margin: 0px;
 }
 
 #bottom {
-  background: rgb(255,235,205);
+  background: #292b2f;
   background: linear-gradient(180deg, Grey 0%, Black 100%);
   margin: 0px;
 }
