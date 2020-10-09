@@ -27,6 +27,11 @@ html, body {
 
 }
 
+.navicon {
+  border-radius: 100%;
+	box-shadow: 1px 1px 5px black;
+}
+
 #middle {
   background: BlanchedAlmond;
   width: 100%;
