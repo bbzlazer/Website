@@ -11,26 +11,30 @@ html, body {
 	margin: 0px;
 }
 
-.nav ul {
+nav ul {
 	list-style-type: none;
-	margin: 0px;
+	background-color: #857785;
+	border: 4px solid #111111;
+	border-radius: 10px;
+	padding: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
-.nav ul li {
-
+nav ul li {  
+	display: inline;
+	border-right: 2px solid;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+  
+nav ul li:last-child {
+	border-right: none;
 }
 
-.nav ul li:last-child {
-
-}
-
-.nav ul li a:button {
-  transition-duration: 0.4s;
-}
-
-.nav ul li a:hover {
-  background-color: #4CAF50;
-  color: white;
+nav ul li a {
+	text-decoration: none;
+	color: #111111;
 }
 
 .navicon {
