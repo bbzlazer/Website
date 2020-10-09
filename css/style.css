@@ -12,10 +12,13 @@ html, body {
 }
 
 .nav ul {
-	list-style-type: none;
-	padding: 16px;
-	font-family: sans-serif;
-	font-weight: bold;
+    list-style-type: none;
+    margin-top: 43px;
+    border-radius: 10px;
+    padding: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
 }
 
 .nav ul li {  
@@ -35,10 +38,11 @@ html, body {
 }
 
 .navicon {
-	background-color: transparent;
-	width: 7%;
-	border-radius: 100%;
-	box-shadow: 1px 1px 5px black;
+    background-color: transparent;
+    width: 7%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px black;
+    float: left;
 }
 
 #middle {
