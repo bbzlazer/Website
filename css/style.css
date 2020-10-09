@@ -24,8 +24,13 @@ html, body {
 
 }
 
-.nav ul li a {
+.nav ul li a:button {
+  transition-duration: 0.4s;
+}
 
+.nav ul li a:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 
 .navicon {
