@@ -1,44 +1,56 @@
-	font-family: sans-serif;
-	font-weight: bold;
-	float: left;
-	background-color: transparent;
-	border: none;
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  background: #292b2f;
+  width: 100%;
+  margin: 0px;
+}
+
+nav ul {
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+    background-color: transparent;
+    border: none;
 }
 
 .nav ul li {  
-	display: inline;
-	border-right: 2px solid;
-	padding-right: 8px;
-	padding-left: 8px;
+    display: inline;
+    border-right: 2px solid;
+    padding-right: 8px;
+    padding-left: 8px;
 }
   
 .nav ul li:last-child {
-	border-right: none;
+    border-right: none;
 }
 
 .nav ul li a {
-	text-decoration: none;
-	color: #111111;
+    text-decoration: none;
+    color: #111111;
 }
 
 .navicon {
-	background-color: transparent;
-	width: 7%;
-	border-radius: 100%;
-	box-shadow: 1px 1px 5px black;
-	float: left;
+    background-color: transparent;
+    width: 7%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px black;
+    float: left;
 }
 
 #middle {
-	background: BlanchedAlmond;
-	width: 100%;
-	height: 68%;
-	margin: 0px;
+    background: BlanchedAlmond;
+    width: 100%;
+    height: 68%;
+    margin: 0px;
 }
 
 #bottom {
-	background: #292b2f;
-	background: linear-gradient(180deg, #292b2f 1%, Black 100%);
-	height: 68%;
-	margin: 0px;
+    background: #292b2f;
+    background: linear-gradient(180deg, #292b2f 1%, Black 100%);
+    height: 68%;
+    margin: 0px;
 }
