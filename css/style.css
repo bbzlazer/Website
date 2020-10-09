@@ -1,18 +1,19 @@
 html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
 }
 
 #top {
-  background: #292b2f;
-  height: 9%;
-  width: 100%;
-  margin: 0px;
+	background: #292b2f;
+	height: 9%;
+	width: 100%;
+	margin: 0px;
 }
 
 .nav ul {
-  list-style-type: none;
+	list-style-type: none;
+	margin: 0px;
 }
 
 .nav ul li {
@@ -28,21 +29,23 @@ html, body {
 }
 
 .navicon {
-  border-radius: 100%;
+	background-color: transparent;
+	background-size: 100px 100px;
+	border-radius: 100%;
 	box-shadow: 1px 1px 5px black;
 }
 
 #middle {
-  background: BlanchedAlmond;
-  width: 100%;
-  height: 68%;
-  margin: 0px;
+	background: BlanchedAlmond;
+	width: 100%;
+	height: 68%;
+	margin: 0px;
 }
 
 #bottom {
-  background: #292b2f;
-  background: linear-gradient(180deg, #292b2f 1%, Black 100%);
-  height: 68%;
-  margin: 0px;
+	background: #292b2f;
+	background: linear-gradient(180deg, #292b2f 1%, Black 100%);
+	height: 68%;
+	margin: 0px;
 }
 
