@@ -1,1 +1,23 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
 
+p {
+  margin: 0px;
+}
+
+#top {
+  background: #292b2f;
+  height: 6%;
+  width: 100%;
+  margin: 0px;
+}
+
+#bottom {
+  background: #292b2f;
+  background: linear-gradient(180deg, #1f2022 1%, Black 100%);
+  height: 94%;
+  margin: 0px;
+}
