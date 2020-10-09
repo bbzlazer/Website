@@ -11,6 +11,22 @@ html, body {
   margin: 0px;
 }
 
+#top.navbar ul {
+  list-style-type: none;
+}
+
+#top.navbar ul li {
+
+}
+
+#top.navbar ul li:last-child {
+
+}
+
+#top.navbar ul li a {
+
+}
+
 #middle {
   background: BlanchedAlmond;
   width: 100%;
